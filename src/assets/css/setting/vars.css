@@ -1,0 +1,12 @@
+/* 변수 선언 */
+
+:root {
+  /* 메인 폰트 */
+  --mainfont-nanum: "nanumSquareNeo";
+  --mainfont-nexon: "nexonLv1";
+
+  /* 메인 컬러 */
+  --main: #030014;
+  --black: #000;
+  --white: #fff;
+}
