@@ -1,90 +1,59 @@
-import port01 from "../assets/img/port01.jpg";
-import port02 from "../assets/img/port02.jpg";
-import port03 from "../assets/img/port03.jpg";
-import port04 from "../assets/img/port04.jpg";
-import port05 from "../assets/img/port05.jpg";
-import port06 from "../assets/img/port06.jpg";
-import port07 from "../assets/img/port07.jpg";
-import port08 from "../assets/img/port08.jpg";
-import port09 from "../assets/img/port09.jpg";
-import port10 from "../assets/img/port10.jpg";
+import mongtreeStudio from "../assets/img/projects/mongstudio.png";
+import monglab from "../assets/img/projects/monglab-min 1.png";
+import mongsang from "../assets/img/projects/mongsang-min 1.png";
+import tttbeauty from "../assets/img/projects/tttbeauty-min 1.png";
+import thedalju from "../assets/img/projects/thedalju-min 1.png";
+import membox from "../assets/img/projects/membox-min 1.png";
+import react_youtube from "../assets/img/projects/react_youtube 1.png";
 
 export const pojectsText = [
   {
-    title: "자사 홈페이지",
-    desc: "그누보드를 이용하여 자사 홈페이지를 제작했습니다.",
-    img: port01,
+    title: "몽트리 스튜디오",
+    desc: "그누보드를 이용하여 디자인, 퍼블리싱했습니다.",
+    img: mongtreeStudio,
     view: "https://mongtree-studio.com/",
-    name: "몽트리 스튜디오",
+    Contribution: "10 / 10",
   },
   {
-    title: "카페24 디자인센터 운영",
-    desc: "카페24의 쇼핑몰 템플릿을 디자인, 제작, 판매 운영하였습니다.",
-    img: port02,
-    view: "https://mongtree.site/",
-    name: "몽랩",
+    title: "카페24 디자인센터",
+    desc: "cafe24 디자인센터 템플릿 제작(8개)하고 판매 / 운영했습니다.",
+    img: monglab,
+    view: "https://ecudemo263891.cafe24.com/",
+    Contribution: "10 / 10",
   },
   {
-    title: "동행몰",
-    desc: "",
-    img: port03,
-    view: "https://www.xn--2q1bt3kdoz.kr/",
-    name: "천설* 포트폴리오",
+    title: "몽트리 상품권",
+    desc: "상품권 솔루션을 제작하여, 여러 업체에 맞춤 커스텀을 진행해 판매하였습니다.",
+    img: mongsang,
+    view: "https://365pinticket.com/",
+    Contribution: "7 / 10",
   },
   {
-    title: "모던한 포트폴리오",
-    desc: "블랙 컨셉과 애니메이션이 돋보이는 포트폴리오 사이트입니다. GSAP를 통한 애니메이션과 NEXT.js를 통해 제작된 포트폴리오입니다. pin 애니메이션을 통한 포폴 작업물의 표현 능력이 돋보이는 사이트입니다.",
-    img: port04,
-    code: "https://github.com/dlgnsrb227/portfolio-next",
-    view: "https://hoongportfolio-next.netlify.app/",
-    name: "이훈* 포트폴리오",
+    title: "tttbeauty",
+    desc: "cafe24 템플릿 커스텀",
+    img: tttbeauty,
+    view: "https://tttbeauty.co.kr/",
+    Contribution: "10 / 10",
   },
   {
-    title: "가로모드의 정석 포트폴리오",
-    desc: "이 포트폴리오는 가로모드를 통해 눈에 띄는 애니메이션 효과를 가진 멋진 작품들이 펼쳐집니다. 세션 간의 부드러운 전환과 흥미로운 움직임이 사용자들에게 색다른 경험을 선사합니다. 사이트에는 탁월한 디자인과 창의적인 애니메이션들이 어우러져, 사용자들에게 인상적인 시각적인 효과를 줍니다. 애니메이션은 적절히 사용되어 사이트를 더욱 생동감 있게 만들어주는 포트폴리오입니다.",
-    img: port05,
-    code: "/",
-    view: "https://junseungpark.github.io/portfolio/index3.html",
-    name: "박준* 포트폴리오",
+    title: "더달쥬",
+    desc: "cafe24 파트너사 홈페이지 제작",
+    img: thedalju,
+    view: "https://thedalju.iwinv.net/",
+    Contribution: "10 / 10",
   },
   {
-    title: "화려함의 정석 포트폴리오",
-    desc: "화려하고 세련된 디자인과 다채로운 색상이 사용된 포트폴리오는 사용자를 홀릴 듯한 시각적인 매력을 지니고 있습니다. 포트폴리오 내의 각 작품들은 디테일한 디자인과 탁월한 시각적 표현력을 갖추고 있어, 주인공의 뛰어난 예술적 감각을 느낄 수 있습니다. 화려한 애니메이션 효과와 부드러운 전환은 사이트를 더욱 생동감 있게 만들어주며, 사용자들에게 색다른 경험을 선사합니다.",
-    img: port06,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/DavidYang/index.html",
-    name: "포트폴리오",
+    title: "메모리박스",
+    desc: "그누보드 쇼핑몰 제작",
+    img: membox,
+    view: "https://membox.kr/",
+    Contribution: "10 / 10",
   },
   {
-    title: "패럴랙스 정석 포트폴리오",
-    desc: "마치 예술작품을 감상하는 듯한 환상적인 경험을 선사하는 포트폴리오입니다. 패럴랙스 스크롤링을 활용하여 구성된 사이트는 사용자들에게 독특하고 멋진 시각적 효과를 제공합니다. 배경과 움직이는 요소들이 조화롭게 어우러져, 사이트 전반에 걸쳐 깊이와 입체감을 느낄 수 있습니다. 스크롤에 따라 움직이는 요소들은 마치 세계를 탐험하는 듯한 느낌을 주며, 사용자들을 끌어들이는 매력적인 요소로 작용합니다.",
-    img: port07,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/TaeyongLee/index.html",
-    name: "포트폴리오",
-  },
-  {
-    title: "트랜지션 포트폴리오",
-    desc: "화면 전환과 요소들의 흐름이 순조롭고 매끄러운 작품들로 가득한 포트폴리오 사이트입니다. 페이지 간의 트랜지션은 마치 이야기를 풀어내는 듯한 흥미진진한 경험을 선사합니다. 트랜지션 효과의 적절한 활용은 작품들을 보다 동적이고 생동감 있게 만들어줍니다. 각 페이지의 이동이 자연스럽고 사용자들이 원활하게 사이트를 탐색할 수 있도록 배려된 구성은 개발자의 디자인 능력을 잘 보여주는 특징입니다.",
-    img: port08,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/HyunroKim/index.html",
-    name: "포트폴리오",
-  },
-  {
-    title: "스크롤의 정석 포트폴리오",
-    desc: "스크롤링을 활용하여 훌륭한 사용자 경험을 선사하는 포트폴리오 사이트입니다. 스크롤을 내리면서 작품들이 순차적으로 나타나고 효과적으로 전환되는 것은 마치 예술적인 이야기를 읽어나가는 듯한 느낌을 주며 사용자를 매료시킵니다. 스크롤의 움직임을 통해 작품들이 서서히 드러나고, 각 페이지 간의 전환은 자연스럽고 부드럽습니다. 이러한 트랜지션과 애니메이션들이 작품들의 내용과 테마를 더욱 강조해줍니다.",
-    img: port09,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/ChoJaeHyung/index.html",
-    name: "포트폴리오",
-  },
-  {
-    title: "모던함의 정석 포트폴리오",
-    desc: "현대적이고 세련된 디자인으로 가득한 포트폴리오 사이트입니다. 모던한 느낌과 세심한 디테일이 조화를 이루며, 사용자에게 신선하고 품격 있는 경험을 제공합니다. 사이트의 디자인은 깔끔하고 단정하면서도 특유의 감성과 풍부한 표현력이 느껴집니다. 간결한 레이아웃과 모던한 색상 선택은 주인공의 디자인 감각을 잘 보여주는 특징입니다.",
-    img: port10,
-    code: "/",
-    view: "https://webstoryboy.github.io/port2023/portfolio-student/JooHyeji/index.html",
-    name: "포트폴리오",
+    title: "react youtube",
+    desc: "youtube API를 이용한 코딩 공부 사이트",
+    img: react_youtube,
+    view: "https://hwangs-youtube.netlify.app/",
+    Contribution: "10 / 10",
   },
 ];

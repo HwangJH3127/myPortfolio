@@ -45,7 +45,7 @@ const Projects = () => {
               ref={(el) => (sectionsRef.current[key] = el)}
             >
               <a
-                href={project.code}
+                href={project.view}
                 target="_blank"
                 className="img"
                 rel="noopener noreferrer"
@@ -54,6 +54,7 @@ const Projects = () => {
               </a>
               <h3 className="title">{project.title}</h3>
               <p className="desc">{project.desc}</p>
+              <p className="contribution">기여도 : {project.Contribution}</p>
             </article>
           ))}
         </div>

@@ -4,6 +4,9 @@
   align-items: start;
   justify-content: center;
 }
+#Projects article {
+  text-align: center;
+}
 #Projects .port__inner {
   margin-top: 1rem;
 }
@@ -20,10 +23,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 5200px;
+  overflow: hidden;
 }
 #Projects .port__inner .port__wrap .port__item {
   width: 500px;
-  height: 100%;
   margin-right: 20px;
 }
 #Projects .port__inner .port__wrap .port__item .img {
@@ -35,6 +38,9 @@
   border-radius: 5px;
   filter: saturate(0%);
   transition: all 0.3s;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
 }
 
 #Projects .port__inner .port__wrap .port__item .img:hover img {
@@ -61,7 +67,13 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
-
+.contribution {
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
 @media (max-width: 800px) {
   #Projects {
     justify-content: center;
