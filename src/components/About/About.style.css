@@ -1,0 +1,62 @@
+section#About {
+  max-width: 1200px;
+  text-align: center;
+}
+section#About ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section#About ul li {
+  display: flex;
+  margin: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+}
+section#About ul li span {
+  font-size: 0.75rem;
+}
+section#About ul li span svg {
+  margin-right: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+section#About .introduce {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+section#About .introduce h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: yellow;
+}
+section#About .introduce h3 p {
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  section#About ul li div.about__list {
+    width: 100%;
+    display: flex;
+    max-width: 13rem;
+    margin: 0 auto;
+    span {
+      margin-right: 1rem;
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .introduce {
+    display: none;
+  }
+}
