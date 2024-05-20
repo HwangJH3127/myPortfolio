@@ -1,0 +1,30 @@
+/* 탑으로 이동 */
+.topBtn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+}
+
+.topBtn.active button {
+  opacity: 0.5;
+}
+.topBtn button {
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.topBtn button:hover {
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.8);
+}
+.topBtn button img {
+  width: 15px;
+  height: 21px;
+}

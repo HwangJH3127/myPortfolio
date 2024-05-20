@@ -1,19 +1,13 @@
 import React from "react";
-
 import { motion } from "framer-motion";
-
-import { MdOutlineMail } from "react-icons/md";
-import { IoCallOutline } from "react-icons/io5";
-import { BsHouse } from "react-icons/bs";
+import { contactMenu } from "../../constants/contact";
 import blackhole from "../../assets/img/blackhole.webm";
-
 import "./Contact.style.css";
 
 const Contact = () => {
   return (
     <section id="Contact">
       <h2>Contact</h2>
-
       <div className="section__inner">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -39,18 +33,12 @@ const Contact = () => {
           }}
         >
           <div className="contact__info">
-            <p>
-              <IoCallOutline />
-              <span>010.3127.3870</span>
-            </p>
-            <p>
-              <MdOutlineMail />
-              <span>whdgusdldl22@naver.com</span>
-            </p>
-            <p>
-              <BsHouse />
-              <span>인천광역시 미추홀구</span>
-            </p>
+            {contactMenu.map((menu) => (
+              <p>
+                {menu.icon}
+                <span>{menu.context}</span>
+              </p>
+            ))}
           </div>
         </motion.div>
       </div>

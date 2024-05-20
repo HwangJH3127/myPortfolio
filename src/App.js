@@ -5,16 +5,20 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/layout//Footer/Footer";
+import MoveTop from "./components/layout/MoveTop/MoveTop";
+import StarsCanvas from "./components/layout/StarCanvas/StarCanvas";
 
 function App() {
   return (
     <>
+      <StarsCanvas />
       <Header />
       <Home />
       <About />
       <Projects />
       <Contact />
       <Footer />
+      <MoveTop />
     </>
   );
 }
