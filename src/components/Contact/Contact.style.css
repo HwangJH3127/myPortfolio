@@ -1,4 +1,7 @@
-#contact .section__inner {
+#Contact {
+  text-align: center;
+}
+#Contact .section__inner {
   padding: 0 2rem;
   border-radius: 10px;
   text-align: center;

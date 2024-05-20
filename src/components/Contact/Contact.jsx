@@ -34,7 +34,7 @@ const Contact = () => {
         >
           <div className="contact__info">
             {contactMenu.map((menu) => (
-              <p>
+              <p key={menu.title}>
                 {menu.icon}
                 <span>{menu.context}</span>
               </p>

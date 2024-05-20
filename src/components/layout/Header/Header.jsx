@@ -56,7 +56,7 @@ const Header = () => {
   return (
     <header id="header" className={scrollPosition > 0 ? "active" : ""}>
       <h1>
-        <AnchorLink href="#home">H's Web.</AnchorLink>
+        <AnchorLink href="#Home">H's Web.</AnchorLink>
       </h1>
 
       <nav>

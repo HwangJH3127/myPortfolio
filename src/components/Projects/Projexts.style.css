@@ -1,0 +1,81 @@
+#Projects {
+  width: 100% !important;
+  max-width: 100% !important;
+  align-items: start;
+  justify-content: center;
+}
+#Projects .port__inner {
+  margin-top: 1rem;
+}
+#Projects .port__inner .port__title {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+
+#Projects .port__inner .port__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 5200px;
+}
+#Projects .port__inner .port__wrap .port__item {
+  width: 500px;
+  height: 100%;
+  margin-right: 20px;
+}
+#Projects .port__inner .port__wrap .port__item .img {
+  display: block;
+
+  transition: margin-top 0.3s;
+}
+#Projects .port__inner .port__wrap .port__item .img img {
+  border-radius: 5px;
+  filter: saturate(0%);
+  transition: all 0.3s;
+}
+
+#Projects .port__inner .port__wrap .port__item .img:hover img {
+  filter: saturate(100%);
+}
+
+#Projects .port__inner .port__wrap .port__item .title {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.8rem 0;
+  font-weight: 700;
+  color: var(--black100);
+  border-bottom: 2px solid var(--black100);
+  margin-bottom: 1rem;
+}
+
+#Projects .port__inner .port__wrap .port__item .desc {
+  font-size: 1rem;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+@media (max-width: 800px) {
+  #Projects {
+    justify-content: center;
+  }
+  #Projects .port__inner .port__title {
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size: 30px;
+    height: auto;
+    top: 68px;
+    background-color: var(--mainBg-color);
+    z-index: 1000;
+  }
+  #Projects .port__inner .port__wrap .port__item {
+    width: 400px;
+  }
+}

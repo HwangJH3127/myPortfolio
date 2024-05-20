@@ -21,3 +21,4 @@
 - framer를 설치합니다. `npm install framer-motion`
 - 타이핑 애니메이션 `npm install react-type-animation`
 - three를 설치합니다. `npm install @react-three/drei`, `npm install three @types/three @react-three/fiber`
+- gsap를 설치합니다. `npm install gsap`

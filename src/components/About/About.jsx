@@ -1,8 +1,8 @@
 import React from "react";
-
 import { motion } from "framer-motion";
 import "./About.style.css";
 import Skills from "../Skills/Skills";
+
 const About = () => {
   return (
     <section id="About">

@@ -7,8 +7,12 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/layout//Footer/Footer";
 import MoveTop from "./components/layout/MoveTop/MoveTop";
 import StarsCanvas from "./components/layout/StarCanvas/StarCanvas";
-
+import smooth from "./utils/smooth";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    smooth();
+  }, []);
   return (
     <>
       <StarsCanvas />
