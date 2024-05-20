@@ -18,7 +18,7 @@ export const pojectsText = [
     title: "카페24 디자인센터",
     desc: "cafe24 디자인센터 템플릿 제작(8개)하고 판매 / 운영했습니다.",
     img: monglab,
-    view: "https://ecudemo263891.cafe24.com/",
+    view: "https://mongtree.site/",
     Contribution: "10 / 10",
   },
   {
