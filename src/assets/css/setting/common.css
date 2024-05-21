@@ -34,6 +34,23 @@ section > h2 {
   margin-bottom: 5rem;
 }
 
+.loader {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: var(--main);
+}
+.main-content {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media (max-width: 1024px) {
   .mt-3 {
     margin-top: 2rem;

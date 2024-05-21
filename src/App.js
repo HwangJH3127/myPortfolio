@@ -8,21 +8,43 @@ import Footer from "./components/layout//Footer/Footer";
 import MoveTop from "./components/layout/MoveTop/MoveTop";
 import StarsCanvas from "./components/layout/StarCanvas/StarCanvas";
 import smooth from "./utils/smooth";
-import { useEffect } from "react";
+import { BallTriangle } from "react-loader-spinner";
+import { useEffect, useState } from "react";
+
 function App() {
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
     smooth();
   }, []);
   return (
     <>
-      <StarsCanvas />
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-      <MoveTop />
+      {loading ? (
+        <BallTriangle
+          height={100}
+          width={100}
+          radius={5}
+          color="#fff"
+          ariaLabel="ball-triangle-loading"
+          wrapperStyle={{}}
+          wrapperClass="loader"
+          visible={true}
+        />
+      ) : (
+        <div className="main-content">
+          <StarsCanvas />
+          <Header />
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+          <MoveTop />
+        </div>
+      )}
     </>
   );
 }
