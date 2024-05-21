@@ -1,6 +1,4 @@
 #Projects {
-  width: 100% !important;
-  max-width: 100% !important;
   align-items: start;
   justify-content: center;
 }
@@ -9,6 +7,8 @@
 }
 #Projects .port__inner {
   margin-top: 1rem;
+  width: 100%;
+  overflow: hidden;
 }
 #Projects .port__inner .port__title {
   font-size: 3rem;
@@ -23,7 +23,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 5200px;
-  overflow: hidden;
 }
 #Projects .port__inner .port__wrap .port__item {
   width: 500px;
@@ -89,5 +88,23 @@
   }
   #Projects .port__inner .port__wrap .port__item {
     width: 400px;
+  }
+  #Projects .port__inner .port__wrap .port__item .title {
+    font-size: 1rem;
+  }
+  #Projects .port__inner .port__wrap .port__item .desc {
+    font-size: 0.75rem;
+  }
+  .contribution {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #Projects .port__inner .port__wrap .port__item {
+    width: 200px;
+  }
+  #Projects .port__inner .port__wrap .port__item .img img {
+    height: 200px;
   }
 }

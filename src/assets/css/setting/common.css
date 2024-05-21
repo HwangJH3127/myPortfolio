@@ -38,3 +38,8 @@ section > h2 {
     margin-bottom: 3rem;
   }
 }
+@media (max-width: 500px) {
+  section {
+    padding: 10px;
+  }
+}

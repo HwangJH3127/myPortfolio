@@ -69,4 +69,7 @@
 }
 
 @media (max-width: 500px) {
+  #Home .section__inner .home__layout .main_bg img {
+    width: 80%;
+  }
 }

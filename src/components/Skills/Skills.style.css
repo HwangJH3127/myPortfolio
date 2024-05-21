@@ -4,8 +4,10 @@
 #Skills div {
   margin-top: 2rem;
 }
+#Skills h3 {
+  margin-bottom: 1rem;
+}
 #Skills div ul {
-  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -24,4 +26,10 @@
   width: 25px;
   height: 25px;
   margin-right: 5px;
+}
+
+@media (max-width: 800px) {
+  #Skills div:first-child {
+    margin-top: 0;
+  }
 }
