@@ -16,7 +16,7 @@
 
 - react를 설치합니다. `npx create-react-app 타이틀`
 - react-icons을 설치합니다. `npm install react-icons`
-- anchor로 스무스하게 스크롤시켜주는 라이브러리. `npm install react-anchor-link-smooth-scroll`
+- anchor로 스무스하게 스크롤시켜주는 라이브러리입니다. `npm install react-anchor-link-smooth-scroll`
 - swiper를 설치합니다. `npm install swiper`
 - framer를 설치합니다. `npm install framer-motion`
 - 타이핑 애니메이션 `npm install react-type-animation`
