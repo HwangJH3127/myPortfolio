@@ -3,7 +3,15 @@ body {
   color: var(--white);
   max-width: 100%;
   margin: 0 auto;
-  overflow: hidden;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+}
+body::-webkit-scrollbar-track {
+  background-color: grey;
 }
 
 /* 섹션 공통 */
